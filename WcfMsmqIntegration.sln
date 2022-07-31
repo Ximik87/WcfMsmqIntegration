@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{D3F676A1-5618-4DFF-AF49-54C3D5E99F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msmq.Wcf.ConsoleHost", "Msmq.Wcf.ConsoleHost\Msmq.Wcf.ConsoleHost.csproj", "{0F4E46E6-76C4-4EDD-A65A-B8E9D0D157C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msmq.Wcf.ConsoleClient", "Msmq.Wcf.ConsoleClient\Msmq.Wcf.ConsoleClient.csproj", "{91A73338-D899-4162-BEEF-8D65D7676D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msmq.Wcf.ConsoleClientLoad", "Msmq.Wcf.ConsoleClientLoad\Msmq.Wcf.ConsoleClientLoad.csproj", "{8389CC3D-5D72-4DFB-8123-E93AEA2FBCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageReceiverNetClassic", "MessageReceiverNetClassic\MessageReceiverNetClassic.csproj", "{22FF909B-881E-4117-9444-004F8CFB5454}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F676A1-5618-4DFF-AF49-54C3D5E99F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F676A1-5618-4DFF-AF49-54C3D5E99F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F676A1-5618-4DFF-AF49-54C3D5E99F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F676A1-5618-4DFF-AF49-54C3D5E99F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4E46E6-76C4-4EDD-A65A-B8E9D0D157C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4E46E6-76C4-4EDD-A65A-B8E9D0D157C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4E46E6-76C4-4EDD-A65A-B8E9D0D157C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4E46E6-76C4-4EDD-A65A-B8E9D0D157C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A73338-D899-4162-BEEF-8D65D7676D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A73338-D899-4162-BEEF-8D65D7676D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A73338-D899-4162-BEEF-8D65D7676D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A73338-D899-4162-BEEF-8D65D7676D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8389CC3D-5D72-4DFB-8123-E93AEA2FBCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8389CC3D-5D72-4DFB-8123-E93AEA2FBCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8389CC3D-5D72-4DFB-8123-E93AEA2FBCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8389CC3D-5D72-4DFB-8123-E93AEA2FBCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FF909B-881E-4117-9444-004F8CFB5454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FF909B-881E-4117-9444-004F8CFB5454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FF909B-881E-4117-9444-004F8CFB5454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FF909B-881E-4117-9444-004F8CFB5454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
